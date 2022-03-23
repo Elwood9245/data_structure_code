@@ -15,3 +15,6 @@ void InitList(Sqlist &L){         //初始化顺序表, 无返回值
     L.length = 0;
 }
 
+int Length(Sqlist L){             //求顺序表长度
+    return L.length;
+}
