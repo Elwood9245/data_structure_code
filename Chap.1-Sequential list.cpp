@@ -6,7 +6,7 @@
 
 typedef int ElemType;             //元素类型用ElemType表示, 此处为int
 
-typedef struct{            //顺序表定义
+typedef struct{                   //顺序表定义
     ElemType data[MaxSize];
     int length;
 }Sqlist;
@@ -19,8 +19,3 @@ int Length(Sqlist L){             //求顺序表长度
     return L.length;
 }
 
-int main(){
-    Sqlist L;
-    InitList(L);
-    printf("%d",Length(L));
-}
